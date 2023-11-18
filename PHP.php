@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost:3306";
-$username = "root";
-$password = "123456";
+$username = "Znkt1111";
+$password = "khanh19112001";
 $dbname = "webnc";
 
 // Create connection
@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 // Your SQL query
-$sql = "INSERT INTO users (id, name, email) VALUES ('3', 'Tú 123', 'vuongvantu2211@gmail.com')";
+$sql = "INSERT INTO users (id, name, email) VALUES ('112', 'Khánh 197', 'nhatkhanh1972001@gmail.com')";
 
 // Perform the query
 if ($conn->query($sql) === TRUE) {
